@@ -2,8 +2,8 @@ import './App.css';
 
 import NavBar from './NavBar'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Home from './Pages'
-import Project1 from './Pages/Project1'
+import Home from './'
+import Project1 from './Project1'
 function App() {
   return (
     <><Router>
