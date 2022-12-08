@@ -1,0 +1,141 @@
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+.App {
+  background-color: rgb(59, 59, 151);
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+.img {
+  width: 0px;
+  height: 00px
+}
+.project1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: calc(35px + 2vmin);;
+  padding: 0.3%;
+  color: white;
+}
+.project1-title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: calc(17px + 2vmin);;
+  padding: 0.3%;
+  color: white;
+}
+.project1-header-title {
+  justify-content: left;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: calc(9px + 2vmin);
+  padding-top: 5%;
+  color: white;
+}
+.project1-header {
+  justify-content: left;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  font-size: calc(7px + 2vmin);;
+  padding: 0.3%;
+  color: white;
+}
+.Link {
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #07080a;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
